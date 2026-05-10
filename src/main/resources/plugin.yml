@@ -1,0 +1,12 @@
+# file: src/main/resources/plugin.yml
+name: MannequinNPC
+main: io.github.anjoismysign.mannequin.npc.MannequinNPC
+version: 1.0
+api-version: 1.21
+author: Anjoismysign
+description: NPC plugin using mannequins
+commands:
+  npc:
+    description: NPC management command
+    usage: /<command> <add|remove|list|edit|tp|reload> [args]
+    permission: mannequinnpc.admin
